@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">YIR</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="network_error">Network Error, Please Check Your Internet Connection</string>
+    <string name="retry">Retry</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="facebook_app_id">418540825884019</string>
+    <string name="fb_login_protocol_scheme">fb418540825884019</string>
+    <string name="propaganda">Propaganda For Election</string>
+    <string name="server_client_id">975519754602-42llkdh4skrn9esf96sdkth535665kdf.apps.googleusercontent.com</string>
+    <string name="events">Events</string>
+    <string name="interaction">Interaction</string>
+    <string name="product">Product</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="feedback">Feedback</string>
+    <string name="spinner_title">Choose group</string>
+    <string name="term_condition">I hereby declare that all the information has been submitted by me.<b><font fgcolor='#277BBD'>T&amp;C</font></b></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Naviagtion drawer close</string>
+</resources>

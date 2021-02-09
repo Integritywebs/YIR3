@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".logins.PreloginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/space10"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="@dimen/dp_50"
+            android:src="@mipmap/logo" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@drawable/loginscreen" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Young Indian Revolution"
+            android:textSize="@dimen/txt_heading"
+            android:textColor="@color/textHeading"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/space5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YIR allows you to have see feeds of your,add fun to your life."
+            android:textStyle="normal"
+            android:layout_marginLeft="@dimen/space20"
+            android:layout_marginRight="@dimen/space20"
+            android:textSize="@dimen/txt_paragraph"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/space5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="Sign Up"
+                android:layout_margin="@dimen/space5"
+                android:textColor="@color/white"
+                style="@style/ButtonBlue"
+                android:layout_height="@dimen/margin_40_dp"/>
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="0dp"
+                style="@style/orangeBlue"
+                android:layout_margin="@dimen/space5"
+                android:textColor="@color/darkblack"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Login"
+                android:layout_height="@dimen/margin_40_dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or via social media:"
+            android:layout_marginTop="@dimen/space10"
+            android:textSize="@dimen/dp_18"
+            android:textColor="@color/textHeading"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/space5"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/button_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="41dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                facebook:com_facebook_login_text="Sign in with Facebook" />
+
+            <com.shobhitpuri.custombuttons.GoogleSignInButton
+                android:id="@+id/signInButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="10sp"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                app:isDarkTheme="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

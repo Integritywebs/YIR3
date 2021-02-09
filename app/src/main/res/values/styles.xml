@@ -1,0 +1,151 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonBlue">
+        <item name="android:textSize">@dimen/txt_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space20</item>
+        <item name="android:paddingRight">@dimen/space20</item>
+        <item name="android:background">@drawable/btn_blue_selector</item>
+    </style>
+<style name = "GoogleButton">
+    <item name="android:textSize">14sp</item>
+    <item name="android:background">@drawable/bg_button_facebook</item>
+    <item name="android:paddingTop">11dp</item>
+    <item name="android:paddingBottom">11dp</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:layout_marginLeft">3dp</item>
+    <item name="android:layout_marginRight">3dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+</style>
+    <style name="FacebookLoginButton">
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/bg_button_facebook</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:paddingBottom">11dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="orangeBlue">
+        <item name="android:textSize">@dimen/txt_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space20</item>
+        <item name="android:paddingRight">@dimen/space20</item>
+        <item name="android:background">@drawable/btn_orange_selector</item>
+    </style>
+    <style name="green">
+        <item name="android:textSize">@dimen/txt_btn</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/space20</item>
+        <item name="android:paddingRight">@dimen/space20</item>
+        <item name="android:background">@drawable/btn_green_selector</item>
+    </style>
+    <style name="ButtonTransparent">
+        <item name="android:textSize">@dimen/txt_btn</item>
+        <item name="android:textColor">@color/textParagraph</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingLeft">@dimen/space20</item>
+        <item name="android:paddingRight">@dimen/space20</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlActivated">@color/hint_color</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorPrimaryText</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorControlActivated">@color/hint_color</item>
+    </style>
+
+    <style name="Hint">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="CheckboxStyle" parent="AppTheme">
+        <item name="colorAccent">@color/black</item>  // for checked
+        <item name="android:textColorSecondary">@color/black</item>  // for unchecked
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="AnimationUpPopup">
+        <item name="android:windowEnterAnimation">@anim/grow_fade_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_fade_out_from_bottom</item>
+    </style>
+
+    <style name="AnimationFromButtom">
+        <item name="android:windowEnterAnimation">@anim/popup_form_bottom</item>
+        <item name="android:windowExitAnimation">@anim/drop_down_to_bottom</item>
+    </style>
+
+    <style name="AnimationFromTop">
+        <item name="android:windowEnterAnimation">@anim/drop_down_from_top</item>
+        <item name="android:windowExitAnimation">@anim/hide_to_top</item>
+    </style>
+    <style name="AppSubTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabPaddingStart">2dp</item>
+        <item name="tabPaddingEnd">2dp</item>
+        <item name="tabIndicator">@color/colorAccent</item>
+        <item name="tabBackground">@drawable/tab_bg</item>
+        <item name="tabTextAppearance">@style/AppTabSubTextAppearance</item>
+    </style>
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@asset/lato_black</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="textAllCaps">true</item>
+    </style>
+    <style name="AppTabSubTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">@asset/lato_black</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>

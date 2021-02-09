@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/welcomeInfo"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/welcomeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/space20"
+            android:paddingRight="@dimen/space20">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share your thoughts"
+                android:textSize="@dimen/txt_heading"
+                android:textColor="@color/textHeading"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Talk, share, and discuss with the YIR Community as this is what it is all about right? In return help us help you unleash the true potential you wield!"
+                android:textStyle="normal"
+                android:textSize="@dimen/txt_paragraph"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

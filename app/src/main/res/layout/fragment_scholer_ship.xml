@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/bg_light_grey"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity.ScholerShipActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="?attr/actionBarSize">
+
+
+        <TextView
+            android:id="@+id/txname"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="Name"
+            android:textColor="@color/darkblack"
+            android:textSize="@dimen/text_size_18sp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_gravity="left"
+            android:foregroundGravity="center"
+            android:padding="@dimen/space10"
+            android:src="@drawable/left"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/space10"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/scholarshipbanner"
+                android:layout_height="170dp" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space10"
+                android:layout_gravity="left|center"
+                android:paddingLeft="@dimen/space10"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_14sp"
+                    android:textColor="@color/darkblack"
+                    android:text="We at YIR have chosen a selfless path to create a young and bright India! However, such a move needs financial assistance and so we have decided to provide scholarships to our members worth Rs. 25000/-" />
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/space10"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/scholarshiptrackyourapplicatio"
+                android:layout_height="@dimen/dp_100" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/space10"
+                android:layout_gravity="right|center"
+                android:paddingLeft="@dimen/space10"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_18sp"
+                    android:textColor="@color/darkblack"
+                    android:text="Track your application for scholarship" />
+
+<!--               <Button-->
+<!--                   android:layout_width="wrap_content"-->
+<!--                   android:layout_height="wrap_content"-->
+
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_100"
+            android:src="@drawable/scholarshipnowavilable"
+            android:layout_marginTop="@dimen/space10" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_150"
+            android:layout_marginTop="@dimen/space10"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cardviewmembership1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_150"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="6dp"
+                app:cardUseCompatPadding="true"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@color/shedo_light_green">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:padding="@dimen/space10">
+
+                    <TextView
+                        android:id="@+id/namescholership1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Scholarship 1"
+                        android:textSize="@dimen/text_size_18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Available :4(left)"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/cardviewScholership2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dp_150"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardCornerRadius="6dp"
+                app:cardUseCompatPadding="true"
+                android:elevation="4dp"
+                app:cardBackgroundColor="@color/shedo_light_pink">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="@dimen/space10">
+
+                    <TextView
+                        android:id="@+id/namescholership2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Scholarship 2"
+                        android:textSize="@dimen/text_size_18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Available :4(left)"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

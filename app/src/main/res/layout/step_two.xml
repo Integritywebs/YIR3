@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/welcomeInfo"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/welcomeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="@dimen/space20"
+            android:paddingRight="@dimen/space20">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Live Feeds in Young Indian Revolution"
+                android:textSize="@dimen/txt_heading"
+                android:textColor="@color/textHeading"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space5"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Make this community a part of your life and your ladder of success! The community will always come to your aid , if they know what is up with you, and hence we bring the option to live stream anything and everything you want to share with us. WE ARE HERE FOR YOU!"
+                android:textStyle="normal"
+                android:textSize="@dimen/txt_paragraph"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/space5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

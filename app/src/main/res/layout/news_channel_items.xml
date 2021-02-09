@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    android:background="#f2f2f2"
+    android:layout_marginTop="4dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#277BBD"
+        >
+        <TextView
+
+            android:id="@+id/news_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zee News "
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textSize="10dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingRight="8dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
